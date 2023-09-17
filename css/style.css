@@ -1,1 +1,132 @@
 /*css sendo realizado aqui*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@300&family=Playfair+Display:ital@1&display=swap');
+/*  font-family: "Playfair Display";*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    background: linear-gradient(120deg, #765C57, #94746d);
+}
+
+    
+img{
+    border-radius: 10px;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+.titleAnimado{
+    text-align: center;
+    padding: 30px;
+  }
+
+
+#fotoCreateBy{
+    border-radius: 50%;
+    width: 85%;
+    height: 50px;
+}
+
+.fotoContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+p{
+    font-size: 16px;
+    color: #000000;
+}
+
+h1{
+    color: #FFF;
+    font-size: 19px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.linha {
+    border: 1px solid #000000; /* Cor e espessura da linha */
+    margin: 8px 0; /* Espaçamento acima e abaixo da linha */
+  }
+
+/* div geral*/
+.LoginBox {
+    height: 100vh;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0px 50px 50px;
+
+}
+
+/* container branco do login*/
+.LoginContainer{
+   min-height: 400px;
+   width: 250px;
+   background-color: #A48680;
+   box-sizing: border-box;
+   padding: 32px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: #0000;
+}
+
+.LoginContainer:hover{
+    background-color: #DEC3C3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.LoginForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+
+
+/*spam/ linha do input */
+.LoginSpam{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #000000;
+    transition: .3s ease-in-out;
+}
+
+.LoginSpam::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;  
+    background: linear-gradient(120deg, #e75590, #00c2cb);
+    transition: .3s ease-in-out;
+}
+
+.LoginInput:focus + .LoginSpam::after{
+   width: 100%;
+}
+
+
+.LoginAhref{
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}
