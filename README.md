@@ -3,7 +3,7 @@
 
 
 
-  <img src="![Alt text](image.png)" alt="screenshot site" >
+  <p>Link do GitHub page: https://marianasantiagobarbieri.github.io/Fase-1.2--Componente-Header/ :)</p>
 
 Objetivos:
 
